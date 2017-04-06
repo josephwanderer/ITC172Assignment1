@@ -16,7 +16,7 @@
         <p>Choose Your Tip Percent</p>
         <asp:RadioButtonList ID="TipPercentsRadioButtonList" runat="server"></asp:RadioButtonList>
         <asp:TextBox ID="OtherTextBox" runat="server"></asp:TextBox>
-        <asp:Button ID="SubmitButton" runat="server" Text="Submit" />
+        <asp:Button ID="SubmitButton" runat="server" Text="Submit" OnClick="SubmitButton_Click"/>
         <p>
             <asp:Label ID="ResultLabel" runat="server" Text="Label"></asp:Label>
         </p>
